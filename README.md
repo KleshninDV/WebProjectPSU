@@ -10,8 +10,9 @@
 <img width="1280" height="627" alt="image" src="https://github.com/user-attachments/assets/3d673027-bfc3-4eec-bc56-194457f2968e" />
 
 <img width="487" height="161" alt="image" src="https://github.com/user-attachments/assets/0ac761b6-4e93-4652-90a9-828e51dfb1fc" />
-<img width="831" height="212" alt="image" src="https://github.com/user-attachments/assets/2a96d279-be86-4ed9-9ab2-bebfb10788e7" />
-<img width="592" height="201" alt="image" src="https://github.com/user-attachments/assets/43a9cd87-d618-4e98-923c-81d942394887" />
+<img width="844" height="145" alt="image" src="https://github.com/user-attachments/assets/dafceadf-043f-41b8-bdc4-4de10d7bbe8a" />
+<img width="602" height="164" alt="image" src="https://github.com/user-attachments/assets/a9351fdd-201d-4786-a778-82519de6d4dc" />
+
 
 
 Проект представляет собой **Spring Boot REST API** приложение с веб-интерфейсом (JS + HTML) для управления системой технической поддержки. Приложение использует базу данных **PostgreSQL** и содержит 3 связанные таблицы.
