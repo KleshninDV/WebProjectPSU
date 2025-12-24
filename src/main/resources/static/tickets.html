@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Заявки</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="index.html" class="brand">HelpDesk</a>
+    <a href="users.html" class="nav-link">Пользователи</a>
+    <a href="tickets.html" class="nav-link active">Заявки</a>
+    <a href="comments.html" class="nav-link">Комментарии</a>
+</nav>
+
+<div class="container">
+    <h1>Заявки</h1>
+    <p class="subtitle">Управление тикетами поддержки</p>
+
+    <!-- Панель добавления -->
+    <form id="ticketForm" class="toolbar">
+        <input id="title" placeholder="Заголовок" required style="flex: 2;">
+        <input id="description" placeholder="Описание" style="flex: 3;">
+        <input id="userId" type="number" placeholder="ID Пользователя" required style="flex: 1;">
+        <button type="submit" class="btn-primary">+ Добавить заявку</button>
+    </form>
+
+    <table>
+        <thead>
+        <tr>
+            <th width="50">ID</th>
+            <th>Тема</th>
+            <th>Описание</th>
+            <th width="100">Статус</th>
+            <th width="200">Действия</th>
+        </tr>
+        </thead>
+        <tbody id="ticketList"></tbody>
+    </table>
+</div>
+
+<script src="js/tickets.js"></script>
+</body>
+</html>

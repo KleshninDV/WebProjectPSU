@@ -1,0 +1,150 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Верхнее меню */
+.navbar {
+    background-color: #fff;
+    padding: 15px 40px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #2f80ed;
+}
+
+/* Контейнер */
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Заголовки */
+h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #888;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+/* Панель добавления (белая плашка сверху) */
+.toolbar {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    flex-grow: 1; /* Растягивает поля */
+}
+
+input:focus, textarea:focus {
+    border-color: #2f80ed;
+}
+
+/* Таблица */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+th {
+    text-align: left;
+    padding: 15px 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #f0f0f0;
+    color: #888;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* Кнопки */
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Синяя (Добавить / Просмотр) */
+.btn-primary {
+    background-color: #2f80ed;
+    color: white;
+    padding: 10px 20px; /* Чуть больше для главной кнопки */
+}
+.btn-primary:hover { background-color: #2567be; }
+
+/* Оранжевая (Изменить) */
+.btn-warning {
+    background-color: #f2994a;
+    color: white;
+}
+.btn-warning:hover { background-color: #d48238; }
+
+/* Красная (Удалить) */
+.btn-danger {
+    background-color: #eb5757;
+    color: white;
+}
+.btn-danger:hover { background-color: #c44343; }
+
+/* Блок кнопок в таблице */
+.actions {
+    display: flex;
+    gap: 8px;
+}
