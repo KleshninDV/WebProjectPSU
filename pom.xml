@@ -51,7 +51,7 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- Тесты (можно оставить) -->
+        <!-- Тесты -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
